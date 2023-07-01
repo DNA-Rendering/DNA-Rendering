@@ -8,6 +8,7 @@ This is the Benchmark PyTorch implementation of the paper *"[DNA-Rendering: A Di
 
 https://github.com/DNA-Rendering/DNA-Rendering/assets/136057575/47147781-9da4-43a6-8ba7-7617d87ae189
 
+
 > 
 >
 > **Abstract:** *Realistic human-centric rendering plays a key role in both computer vision and computer graphics. Rapid progress has been made in the algorithm aspect over the years, yet existing human-centric rendering datasets and benchmarks are rather impoverished in terms of diversity (e.g., outfit's fabric/material, body's interaction with objects, and motion sequences), which are crucial for rendering effect. Researchers are usually constrained to explore and evaluate a small set of rendering problems on current datasets, while real-world applications require methods to be robust across different scenarios. In this work, we present DNA-Rendering, a large-scale, high-fidelity repository of human performance data for neural actor rendering.
