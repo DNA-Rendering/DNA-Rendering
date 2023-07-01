@@ -1,16 +1,84 @@
-### Hi there 👋
+# DNA-Rendering Dataset
+[![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-b31b1b.svg)](https://arxiv.org/abs/xxxx.xxxxx) <a href="https://dna-rendering.github.io/">
+<img alt="Project" src="https://img.shields.io/badge/-Project%20Page-lightgrey?logo=Google%20Chrome&color=informational&logoColor=white"></a> 
+<a href="https://youtu.be/3dU-FgN2ycQ"><img alt="Demo" src="https://img.shields.io/badge/-Demo-ea3323?logo=youtube"></a> 
 
-<!--
-**DNA-Rendering/DNA-Rendering** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This is the Benchmark PyTorch implementation of the paper *"[DNA-Rendering: A Diverse Neural Actor Repository for High-Fidelity Human-centric Rendering]()"*.
 
-Here are some ideas to get you started:
+https://github.com/DNA-Rendering/DNA-Rendering/assets/136057575/fc236f28-634d-4922-b3da-ffcfafbd5f8c
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+> 
+>
+> **Abstract:** *Realistic human-centric rendering plays a key role in both computer vision and computer graphics. Rapid progress has been made in the algorithm aspect over the years, yet existing human-centric rendering datasets and benchmarks are rather impoverished in terms of diversity (e.g., outfit's fabric/material, body's interaction with objects, and motion sequences), which are crucial for rendering effect. Researchers are usually constrained to explore and evaluate a small set of rendering problems on current datasets, while real-world applications require methods to be robust across different scenarios. In this work, we present DNA-Rendering, a large-scale, high-fidelity repository of human performance data for neural actor rendering.
+DNA-Rendering presents several alluring attributes. First, our dataset contains over 1500 human subjects, $5000$ motion sequences, and $67.5M$ frames' data volume. Upon the massive collections, we provide human subjects with grand categories of pose actions, body shapes, clothing, accessories, hairdos, and object intersection,  which ranges the geometry and appearance variances from everyday life to professional occasions. Second, we provide rich assets for each subject -- 2D/3Dhuman body keypoints, foreground masks,  smplx models, cloth/accessory materials, multi-view images and videos. These assets boost the current method's accuracy on downstream rendering tasks. Third, we construct a professional multi-view system to capture data, which contains 60 synchronous cameras with max 4096 x 3000 resolution, 15fps speed, and stern camera calibration steps, ensuring high-quality resources for task training and evaluation.
+Along with the dataset, we provide a large-scale and quantitative benchmark in full-scale, with multiple tasks to evaluate the existing progress of novel view synthesis, novel pose animation synthesis, and novel identity rendering methods. In this manuscript, we describe our DNA-Rendering effort as a revealing of new observations, challenges, and future directions to human-centric rendering. The dataset and code for data processing and benchmarking are publicly available at https://dna-rendering.github.io/ .* <br>
+
+## Updates
+
+- 2023.07.01: Technical report, data and code will be released soon. Please stay tuned!
+- 2023.07.01: The [demo video](https://www.youtube.com/watch?v=3dU-FgN2ycQ) is uploaded.
+- 2023.07.01: The [project page](https://dna-rendering.github.io/) is created.
+
+
+## Contents
+1. [Features](#features)
+2. [Data Download](#Data-Download)
+3. [Benchmark & Model Zoo](#Benchmark-&-Model-Zoo)
+4. [Usage](#Usage)
+5. [Related Works](#Related-Works)
+6. [Citation](#citation)
+<!--6. [Acknowlegement](#Acknowlegement)-->
+
+
+# Features
+* Scales: To our knowledge, our dataset far surpasses similar ones in terms of the number of actors, costumes, actions, clarity, and overall data volume.
+* Diversity: Our dataset covers a diverse range of scenarios, including everyday and special performances. It includes a total of 529 clothing types and 422 action types, with sufficient difficulty levels in clothing textures and motion complexity. This diversity and difficulty make it suitable for a variety of downstream research tasks.
+* High-quality Annotations: Our dataset comes with off-the-shelf high-precision annotation, including 2D/3D human body keypoints, foreground masks, and SMPL-X models. We have specifically optimized our annotations for 3D human body scenarios, resulting in high-quality annotations.
+* Benchmarks: We have provided the results of various state-of-the-art methods of rendering and animation on our dataset.
+
+## Data Download
+The dataset will be released soon.
+
+## Benchmark & Model Zoo
+
+Coming soon! We provide for each benchmark the pretrained model, code for training & evaluation reimplementation, and dataset for training.
+
+| Benchmark                          | Aspect                           | Pretrained Model                                                | Reimplementation                     | Dataset                          |
+| -------------------------------    | -------------------------------  | ------------------------------------------------------------ | ---------------- | -------------------------------------------- |
+| instant-ngp    | NovelView             |  | | |
+| NeuS           | NovelView             |  | | |
+| Neural Volumes | NovelView/NovelPose   |  | | |
+| A-NeRF         | NovelView/NovelPose   |  | | |
+| Neural Body    | NovelView/NovelPose   |  | | |
+| Animatable Nerf| NovelView/NovelPose   |  | | |
+| HumanNeRF      | NovelView/NovelPose   |  | | |
+| IBRNet         | NovelID/CrossData     |  | | |
+| Pixel          | NovelID/CrossData     |  | | |
+| Vision         | NovelID/CrossData     |  | | |
+| Neural Human Performance   | NovelID   |  | | |
+| KeyPointNerf   | NovelID               |  | | |
+
+## Usage
+The code will be released soon!
+
+## TODO List
+
+- [ ] Release Code and pretrained model
+- [ ] Release Dataset
+- [ ] Technical Report
+- [x] Project page
+
+
+## Related Works
+## Citation
+
+```bibtex
+@article{2023dnarendering,
+      title={DNA-RENDERING: A Diverse Neural Actor Repository for High-Fidelity Human-centric Rendering}, 
+      author={xxx},
+      journal   = {arXiv preprint},
+      volume    = {arXiv:xxxx.xxxxx},
+      year    = {2023}
+```
+<!-- ## Acknowlegement -->
+
