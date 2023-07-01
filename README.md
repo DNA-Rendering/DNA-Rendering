@@ -5,7 +5,8 @@
 
 This is the Benchmark PyTorch implementation of the paper *"[DNA-Rendering: A Diverse Neural Actor Repository for High-Fidelity Human-centric Rendering]()"*.
 
-https://github.com/DNA-Rendering/DNA-Rendering/assets/136057575/fc236f28-634d-4922-b3da-ffcfafbd5f8c
+
+https://github.com/DNA-Rendering/DNA-Rendering/assets/136057575/47147781-9da4-43a6-8ba7-7617d87ae189
 
 > 
 >
