@@ -6,7 +6,8 @@
 This is the Benchmark PyTorch implementation of the paper *"[DNA-Rendering: A Diverse Neural Actor Repository for High-Fidelity Human-centric Rendering]()"*.
 
 
-https://github.com/DNA-Rendering/DNA-Rendering/assets/136057575/47147781-9da4-43a6-8ba7-7617d87ae189
+
+![renbody-teaser](https://github.com/DNA-Rendering/DNA-Rendering/assets/136057575/e64b8ca2-2490-46e7-a97e-a7bf05a0e34b)
 
 
 > 
@@ -34,9 +35,12 @@ Along with the dataset, we provide a large-scale and quantitative benchmark in f
 
 # Features
 * Scales: To our knowledge, our dataset far surpasses similar ones in terms of the number of actors, costumes, actions, clarity, and overall data volume.
+  
+  https://github.com/DNA-Rendering/DNA-Rendering/assets/136057575/47147781-9da4-43a6-8ba7-7617d87ae189
 * Diversity: Our dataset covers a diverse range of scenarios, including everyday and special performances. It includes a total of 529 clothing types and 422 action types, with sufficient difficulty levels in clothing textures and motion complexity. This diversity and difficulty make it suitable for a variety of downstream research tasks.
 * High-quality Annotations: Our dataset comes with off-the-shelf high-precision annotation, including 2D/3D human body keypoints, foreground masks, and SMPL-X models. We have specifically optimized our annotations for 3D human body scenarios, resulting in high-quality annotations.
 * Benchmarks: We have provided the results of various state-of-the-art methods of rendering and animation on our dataset.
+![Benchmark](https://github.com/DNA-Rendering/DNA-Rendering/assets/136057575/f4bd098a-48c9-4645-b65b-78e8760b8b5a)
 
 ## Data Download
 The dataset will be released soon.
