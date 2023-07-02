@@ -19,7 +19,7 @@ Along with the dataset, we provide a large-scale and quantitative benchmark in f
 ## Updates
 
 - 2023.07.01: Technical report, data and code will be released soon. Please stay tuned!
-- 2023.07.01: The [demo video](https://www.youtube.com/watch?v=3dU-FgN2ycQ) is uploaded.
+- 2023.07.01: The [demo video](https://www.youtube.com/watch?v=C5mtexVS3DU) is uploaded.
 - 2023.07.01: The [project page](https://dna-rendering.github.io/) is created.
 
 
@@ -33,19 +33,24 @@ Along with the dataset, we provide a large-scale and quantitative benchmark in f
 <!--6. [Acknowlegement](#Acknowlegement)-->
 
 
-# Features
+## Features
 * Scales: To our knowledge, our dataset far surpasses similar ones in terms of the number of actors, costumes, actions, clarity, and overall data volume.
   
-  https://github.com/DNA-Rendering/DNA-Rendering/assets/136057575/47147781-9da4-43a6-8ba7-7617d87ae189
-* Diversity: Our dataset covers a diverse range of scenarios, including everyday and special performances. It includes a total of 529 clothing types and 422 action types, with sufficient difficulty levels in clothing textures and motion complexity. This diversity and difficulty make it suitable for a variety of downstream research tasks.
+https://github.com/DNA-Rendering/DNA-Rendering/assets/136057575/a6b3d561-38a1-4323-8c9a-ab4fa3e8f227
+* Diversity: Our dataset covers a diverse range of scenarios, including everyday and special performances. It includes large variation of clothing and action types, with sufficient difficulty levels in clothing textures and motion complexity. This diversity and difficulty make it suitable for a variety of downstream research tasks.
+
+
+https://github.com/DNA-Rendering/DNA-Rendering/assets/136057575/35712e04-c8e6-4158-97de-7b9763a08069
 * High-quality Annotations: Our dataset comes with off-the-shelf high-precision annotation, including 2D/3D human body keypoints, foreground masks, and SMPL-X models. We have specifically optimized our annotations for 3D human body scenarios, resulting in high-quality annotations.
+
+https://github.com/DNA-Rendering/DNA-Rendering/assets/136057575/643d41f5-ab74-420b-af8d-e60a8cf5732e
 * Benchmarks: We have provided the results of various state-of-the-art methods of rendering and animation on our dataset.
 ![Benchmark](https://github.com/DNA-Rendering/DNA-Rendering/assets/136057575/f4bd098a-48c9-4645-b65b-78e8760b8b5a)
 
 ## Data Download
 The dataset will be released soon.
 
-## Benchmark & Model Zoo
+# Benchmark & Model Zoo
 
 Coming soon! We provide for each benchmark the pretrained model, code for training & evaluation reimplementation, and dataset for training.
 
