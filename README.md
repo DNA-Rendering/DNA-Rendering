@@ -77,7 +77,7 @@ The code will be released soon!
 
 - [ ] Release Code and pretrained model
 - [ ] Release Dataset
-- [ ] Technical Report
+- [x] Technical Report
 - [x] Project page
 
 
