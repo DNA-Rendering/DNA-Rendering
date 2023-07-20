@@ -1,5 +1,5 @@
 # [ICCV2023] DNA-Rendering
-[![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-b31b1b.svg)](https://arxiv.org/abs/xxxx.xxxxx) <a href="https://dna-rendering.github.io/">
+[![arXiv](https://img.shields.io/badge/arXiv-2307.10173-b31b1b.svg)](https://arxiv.org/abs/2307.10173) <a href="https://dna-rendering.github.io/">
 <img alt="Project" src="https://img.shields.io/badge/-Project%20Page-lightgrey?logo=Google%20Chrome&color=informational&logoColor=white"></a> 
 <a href="https://youtu.be/C5mtexVS3DU"><img alt="Demo" src="https://img.shields.io/badge/-Demo-ea3323?logo=youtube"></a> 
 
@@ -17,6 +17,7 @@ DNA-Rendering presents several alluring attributes. First, our dataset contains 
 Along with the dataset, we provide a large-scale and quantitative benchmark in full-scale, with multiple tasks to evaluate the existing progress of novel view synthesis, novel pose animation synthesis, and novel identity rendering methods. In this manuscript, we describe our DNA-Rendering effort as a revealing of new observations, challenges, and future directions to human-centric rendering. The dataset and code for data processing and benchmarking are publicly available at https://dna-rendering.github.io/ .* <br>
 
 ## Updates
+- 2023.07.20: :fire::fire::fire:**The [technical report](https://arxiv.org/abs/2307.10173) is released!**:fire::fire::fire:
 - 2023.07.14: Our paper has been accepted by ICCV 2023!
 - 2023.07.01: Technical report, data and code will be released soon. Please stay tuned!
 - 2023.07.01: The [demo video](https://www.youtube.com/watch?v=C5mtexVS3DU) is uploaded. Check it out for an overview of this project!
@@ -85,11 +86,12 @@ The code will be released soon!
 
 ```bibtex
 @article{2023dnarendering,
-      title={DNA-RENDERING: A Diverse Neural Actor Repository for High-Fidelity Human-centric Rendering}, 
-      author={xxx},
+      title={DNA-Rendering: A Diverse Neural Actor Repository for High-Fidelity Human-centric Rendering}, 
+      author={Wei Cheng and Ruixiang Chen and Wanqi Yin and Siming Fan and Keyu Chen and Honglin He and Huiwen Luo and Zhongang Cai and Jingbo Wang and Yang Gao and Zhengming Yu and Zhengyu Lin and Daxuan Ren and Lei Yang and Ziwei Liu and Chen Change Loy and Chen Qian and Wayne Wu and Dahua Lin and Bo Dai and Kwan-Yee Lin},
       journal   = {arXiv preprint},
-      volume    = {arXiv:xxxx.xxxxx},
+      volume    = {arXiv:2307.10173},
       year    = {2023}
+}
 ```
 <!-- ## Acknowlegement -->
 
