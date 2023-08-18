@@ -1,7 +1,7 @@
 # [ICCV2023] DNA-Rendering
 [![arXiv](https://img.shields.io/badge/arXiv-2307.10173-b31b1b.svg)](https://arxiv.org/abs/2307.10173) <a href="https://dna-rendering.github.io/">
 <img alt="Project" src="https://img.shields.io/badge/-Project%20Page-lightgrey?logo=Google%20Chrome&color=informational&logoColor=white"></a> 
-<a href="https://youtu.be/C5mtexVS3DU"><img alt="Demo" src="https://img.shields.io/badge/-Demo-ea3323?logo=youtube"></a> 
+<a href="https://youtu.be/xlhfvxvu7nc"><img alt="Demo" src="https://img.shields.io/badge/-Demo-ea3323?logo=youtube"></a> 
 
 This is the official Benchmark PyTorch implementation of the paper *"[DNA-Rendering: A Diverse Neural Actor Repository for High-Fidelity Human-centric Rendering]()"*.
 
