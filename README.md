@@ -17,6 +17,7 @@ DNA-Rendering presents several alluring attributes. First, our dataset contains 
 Along with the dataset, we provide a large-scale and quantitative benchmark in full-scale, with multiple tasks to evaluate the existing progress of novel view synthesis, novel pose animation synthesis, and novel identity rendering methods. In this manuscript, we describe our DNA-Rendering effort as a revealing of new observations, challenges, and future directions to human-centric rendering. The dataset and code for data processing and benchmarking are publicly available at https://dna-rendering.github.io/ .* <br>
 
 ## Updates
+- 2024.04.29: 🍮🍮🍮Data Part3🍮🍮🍮 is released! 
 - 2024.03.08: Data metioned in [4K4D](https://zju3dv.github.io/4k4d/) is released!
   > It is **NOT** part of the official DNA-Rendering dataset, we released for fair comparison in the research community.
 - 2023.10.28: :fire::fire::fire:**[Data Part2](https://dna-rendering.github.io/inner-download.html) is fully released!**:fire::fire::fire: 
