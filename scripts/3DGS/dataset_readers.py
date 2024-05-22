@@ -354,7 +354,7 @@ def readCamerasDNARendering(path, info_dict, white_background, image_scaling=0.5
 
 def readDNARenderingInfo(path, white_background, eval):
 
-    test_view_arr = [3, 5, 7, 9, 11, 15, 17, 19, 21, 23, 27, 29, 31, 33, 35, 39, 43, 45]
+    test_view_arr = [3, 5, 7, 8, 11, 15, 17, 19, 21, 23, 27, 29, 31, 33, 35, 39, 41, 45]
     train_view_arr = [x for x in range(48) if x not in test_view_arr]
     train_info_dict = {
         "views": train_view_arr,
