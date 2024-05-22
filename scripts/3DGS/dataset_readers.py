@@ -12,7 +12,7 @@
 import os
 import sys
 from PIL import Image
-from typing import NamedTuple
+from typing import NamedTuple, Optional
 from scene.colmap_loader import read_extrinsics_text, read_intrinsics_text, qvec2rotmat, \
     read_extrinsics_binary, read_intrinsics_binary, read_points3D_binary, read_points3D_text
 from utils.graphics_utils import getWorld2View2, focal2fov, fov2focal
@@ -42,6 +42,8 @@ class CameraInfo(NamedTuple):
     image_name: str
     width: int
     height: int
+    K: Optional[np.array] = None  ### for DNA-Rendering
+    use_K: Optional[bool] = False  ### for DNA-Rendering
 
 class SceneInfo(NamedTuple):
     point_cloud: BasicPointCloud
@@ -343,7 +345,8 @@ def readCamerasDNARendering(path, info_dict, white_background, image_scaling=0.5
         image_path = os.path.join(out_img_dir, "%s.png" % image_name)
 
         cam_infos.append(CameraInfo(uid=idx, R=R, T=T, FovY=FovY, FovX=FovX, image=image,
-                            image_path=image_path, image_name=image_name, width=W, height=H))
+                            image_path=image_path, image_name=image_name, width=W, height=H,
+                            K=K, use_K=True))
             
         idx += 1
     
