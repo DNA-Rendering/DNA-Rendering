@@ -17,6 +17,7 @@ DNA-Rendering presents several alluring attributes. First, our dataset contains 
 Along with the dataset, we provide a large-scale and quantitative benchmark in full-scale, with multiple tasks to evaluate the existing progress of novel view synthesis, novel pose animation synthesis, and novel identity rendering methods. In this manuscript, we describe our DNA-Rendering effort as a revealing of new observations, challenges, and future directions to human-centric rendering. The dataset and code for data processing and benchmarking are publicly available at https://dna-rendering.github.io/ .* <br>
 
 ## Updates
+- 2024.05.24: 🍮🍮🍮Data Part5🍮🍮🍮 is released! 
 - 2024.05.13: 🏗️ We support directly using DNA-Rendering data in [3DGS](https://github.com/graphdeco-inria/gaussian-splatting) now. Please refer to (https://github.com/DNA-Rendering/DNA-Rendering/issues/12) for the instruction!
 - 2024.05.11: 🍮🍮🍮Data Part4🍮🍮🍮 is released! 
 - 2024.05.10: 🍹🍹🍹Data metioned in [4K4D](https://zju3dv.github.io/4k4d/) 🍹🍹🍹 is fully released!
