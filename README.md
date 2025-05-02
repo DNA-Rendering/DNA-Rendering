@@ -62,39 +62,9 @@ https://github.com/DNA-Rendering/DNA-Rendering/assets/136057575/643d41f5-ab74-42
 ![Benchmark](https://github.com/DNA-Rendering/DNA-Rendering/assets/136057575/f4bd098a-48c9-4645-b65b-78e8760b8b5a)
 
 ## Data Download
-The dataset will be released soon.
-
-# Benchmark & Model Zoo
-
-Coming soon! We provide for each benchmark the pretrained model, code for training & evaluation reimplementation, and dataset for training.
-
-| Benchmark                          | Aspect                           | Pretrained Model                                                | Reimplementation                     | Dataset                          |
-| -------------------------------    | -------------------------------  | ------------------------------------------------------------ | ---------------- | -------------------------------------------- |
-| instant-ngp    | NovelView             |  | | |
-| NeuS           | NovelView             |  | | |
-| Neural Volumes | NovelView/NovelPose   |  | | |
-| A-NeRF         | NovelView/NovelPose   |  | | |
-| Neural Body    | NovelView/NovelPose   |  | | |
-| Animatable Nerf| NovelView/NovelPose   |  | | |
-| HumanNeRF      | NovelView/NovelPose   |  | | |
-| IBRNet         | NovelID/CrossData     |  | | |
-| Pixel          | NovelID/CrossData     |  | | |
-| Vision         | NovelID/CrossData     |  | | |
-| Neural Human Performance   | NovelID   |  | | |
-| KeyPointNerf   | NovelID               |  | | |
-
-## Usage
-The code will be released soon!
-
-## TODO List
-
-- [ ] Release Code and pretrained model
-- [ ] Release Dataset
-- [x] Technical Report
-- [x] Project page
+Please refer to the [download instructions](https://dna-rendering.github.io/inner-download.html).
 
 
-## Related Works
 ## Citation
 
 ```bibtex
